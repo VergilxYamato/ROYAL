@@ -389,15 +389,15 @@ logo = ("""\033[1;32m
 
 \033[1;32mWelcome to the Royalty
 
-\033[;33mCLEAR FACEBOOK DATA TO OEPN CP ID JUST NOW
+\033[;33mCLEAR FACEBOOK DATA TO OPEN CP ID FOR NOW
 
 \033[;32mFUCK YOU 😁🖕
         
 ••••••••••••••••••••••••••••••••••••••••••••••••••\033[1;33m
-  \033[1;32mAuthor  : ADITYA-NP
-  \033[1;33mYouTube : ADITYA-NP
+  \033[1;32mAuthor   : ADITYA-NP
+  \033[1;33mYouTube  : ADITYA-NP
   \033[1;32mFacebook : ADITYA CHAPAGAI
-   \033[1;33m GitHub. : VergilxYamato
+  \033[1;33m GitHub  : VergilxYamato
 ••••••••••••••••••••••••••••••••••••••••••••••••••\033[1;32m""")
 
 class Main:
@@ -414,7 +414,7 @@ class Main:
 		print("\033[1;32m [1] First Subscribe Channel")
 		print("\033[1;33m [2] Exit")
 		print("")
-		Aditya = input("\n\033[1;36m  Chose ==> \033[1;32m")
+		Aditya = input("\n\033[1;36m  Choose ==> \033[1;32m")
 		if Aditya in ["", " "]:
 			exit()
 		elif Aditya in ["2", "02"]:
@@ -429,7 +429,7 @@ class Main:
 			input("\n\033[1;32m  Type Name ==> \033[1;36m")
 			time.sleep(2.1)
 			print("")
-			print("\033[1;32m Successful Bro")
+			print("\033[1;32m Nice Name")
 			time.sleep(2.0)
 			os.system("clear")
 		
@@ -453,7 +453,7 @@ class Main:
 			self.old2()
 			exit()
 		else:
-			print (" Select Correctly ")
+			print (" Ma Chikni talai padhna aaudaina! mistake garis ")
 			time.sleep(1)
 			Main()
 
