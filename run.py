@@ -1316,7 +1316,7 @@ def Subscraption():
 	key1=open('/data/data/com.termux/files/usr/bin/.mrHELLO -cov', 'r').read()
 	clear()
 	print(logo)
-	r1=requests.get("https://github.com/VergilxYamato/ROYAL").text
+	r1=requests.get("https://github.com/VergilxYamato/ROYAL/blob/main/approve.txt").text
 	if key1 in r1:
 		os.system('clear')
 		print(logo)
